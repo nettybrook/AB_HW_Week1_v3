@@ -14,6 +14,20 @@
 		9400C1BF1CEE178900983E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9400C1BD1CEE178900983E51 /* LaunchScreen.storyboard */; };
 		9400C1CA1CEE178900983E51 /* AB_HW_Week1_v3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400C1C91CEE178900983E51 /* AB_HW_Week1_v3Tests.swift */; };
 		9400C1D51CEE178900983E51 /* AB_HW_Week1_v3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400C1D41CEE178900983E51 /* AB_HW_Week1_v3UITests.swift */; };
+		9400C1E31CEE9AA200983E51 /* CreateRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400C1E21CEE9AA200983E51 /* CreateRootViewController.swift */; };
+		9400C1E61CEEA26D00983E51 /* SigninRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400C1E51CEEA26D00983E51 /* SigninRootViewController.swift */; };
+		9400C1E81CEEA61100983E51 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400C1E71CEEA61100983E51 /* CreateAccountViewController.swift */; };
+		9400C1EA1CEEA64200983E51 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400C1E91CEEA64200983E51 /* SignInViewController.swift */; };
+		9400C1EC1CF104BC00983E51 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400C1EB1CF104BC00983E51 /* TermsViewController.swift */; };
+		9400C1EE1CF10C5A00983E51 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400C1ED1CF10C5A00983E51 /* SettingsViewController.swift */; };
+		944617DE1CF16ADA00CE8B3E /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944617DD1CF16ADA00CE8B3E /* ForgotViewController.swift */; };
+		944617E01CF1718700CE8B3E /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944617DF1CF1718700CE8B3E /* PhotosViewController.swift */; };
+		944617E21CF1748200CE8B3E /* SettingsTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944617E11CF1748200CE8B3E /* SettingsTwoViewController.swift */; };
+		944617E41CF1777E00CE8B3E /* CreateWeakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944617E31CF1777E00CE8B3E /* CreateWeakViewController.swift */; };
+		944617E61CF177A500CE8B3E /* CreateSoSoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944617E51CF177A500CE8B3E /* CreateSoSoViewController.swift */; };
+		944617E81CF177C700CE8B3E /* CreateGoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944617E71CF177C700CE8B3E /* CreateGoodViewController.swift */; };
+		944617EA1CF177EE00CE8B3E /* CreateGreatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944617E91CF177EE00CE8B3E /* CreateGreatViewController.swift */; };
+		944617EC1CF17EE600CE8B3E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944617EB1CF17EE600CE8B3E /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +61,20 @@
 		9400C1D01CEE178900983E51 /* AB_HW_Week1_v3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AB_HW_Week1_v3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9400C1D41CEE178900983E51 /* AB_HW_Week1_v3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AB_HW_Week1_v3UITests.swift; sourceTree = "<group>"; };
 		9400C1D61CEE178900983E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9400C1E21CEE9AA200983E51 /* CreateRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRootViewController.swift; sourceTree = "<group>"; };
+		9400C1E51CEEA26D00983E51 /* SigninRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninRootViewController.swift; sourceTree = "<group>"; };
+		9400C1E71CEEA61100983E51 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		9400C1E91CEEA64200983E51 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		9400C1EB1CF104BC00983E51 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		9400C1ED1CF10C5A00983E51 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		944617DD1CF16ADA00CE8B3E /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		944617DF1CF1718700CE8B3E /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		944617E11CF1748200CE8B3E /* SettingsTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTwoViewController.swift; sourceTree = "<group>"; };
+		944617E31CF1777E00CE8B3E /* CreateWeakViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateWeakViewController.swift; sourceTree = "<group>"; };
+		944617E51CF177A500CE8B3E /* CreateSoSoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSoSoViewController.swift; sourceTree = "<group>"; };
+		944617E71CF177C700CE8B3E /* CreateGoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGoodViewController.swift; sourceTree = "<group>"; };
+		944617E91CF177EE00CE8B3E /* CreateGreatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGreatViewController.swift; sourceTree = "<group>"; };
+		944617EB1CF17EE600CE8B3E /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +125,7 @@
 		9400C1B31CEE178900983E51 /* AB_HW_Week1_v3 */ = {
 			isa = PBXGroup;
 			children = (
+				9400C1E41CEEA21900983E51 /* View Controllers */,
 				9400C1B41CEE178900983E51 /* AppDelegate.swift */,
 				9400C1B61CEE178900983E51 /* ViewController.swift */,
 				9400C1B81CEE178900983E51 /* Main.storyboard */,
@@ -123,6 +152,27 @@
 				9400C1D61CEE178900983E51 /* Info.plist */,
 			);
 			path = AB_HW_Week1_v3UITests;
+			sourceTree = "<group>";
+		};
+		9400C1E41CEEA21900983E51 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				944617DD1CF16ADA00CE8B3E /* ForgotViewController.swift */,
+				944617DF1CF1718700CE8B3E /* PhotosViewController.swift */,
+				944617E11CF1748200CE8B3E /* SettingsTwoViewController.swift */,
+				9400C1ED1CF10C5A00983E51 /* SettingsViewController.swift */,
+				9400C1E51CEEA26D00983E51 /* SigninRootViewController.swift */,
+				9400C1E21CEE9AA200983E51 /* CreateRootViewController.swift */,
+				9400C1E71CEEA61100983E51 /* CreateAccountViewController.swift */,
+				9400C1E91CEEA64200983E51 /* SignInViewController.swift */,
+				9400C1EB1CF104BC00983E51 /* TermsViewController.swift */,
+				944617E31CF1777E00CE8B3E /* CreateWeakViewController.swift */,
+				944617E51CF177A500CE8B3E /* CreateSoSoViewController.swift */,
+				944617E71CF177C700CE8B3E /* CreateGoodViewController.swift */,
+				944617E91CF177EE00CE8B3E /* CreateGreatViewController.swift */,
+				944617EB1CF17EE600CE8B3E /* WelcomeViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +306,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9400C1E81CEEA61100983E51 /* CreateAccountViewController.swift in Sources */,
+				944617EC1CF17EE600CE8B3E /* WelcomeViewController.swift in Sources */,
+				9400C1E61CEEA26D00983E51 /* SigninRootViewController.swift in Sources */,
+				944617DE1CF16ADA00CE8B3E /* ForgotViewController.swift in Sources */,
+				944617E21CF1748200CE8B3E /* SettingsTwoViewController.swift in Sources */,
+				944617E41CF1777E00CE8B3E /* CreateWeakViewController.swift in Sources */,
+				944617E61CF177A500CE8B3E /* CreateSoSoViewController.swift in Sources */,
+				9400C1EA1CEEA64200983E51 /* SignInViewController.swift in Sources */,
+				9400C1E31CEE9AA200983E51 /* CreateRootViewController.swift in Sources */,
 				9400C1B71CEE178900983E51 /* ViewController.swift in Sources */,
 				9400C1B51CEE178900983E51 /* AppDelegate.swift in Sources */,
+				9400C1EC1CF104BC00983E51 /* TermsViewController.swift in Sources */,
+				944617E81CF177C700CE8B3E /* CreateGoodViewController.swift in Sources */,
+				9400C1EE1CF10C5A00983E51 /* SettingsViewController.swift in Sources */,
+				944617E01CF1718700CE8B3E /* PhotosViewController.swift in Sources */,
+				944617EA1CF177EE00CE8B3E /* CreateGreatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +546,7 @@
 				9400C1DB1CEE178900983E51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9400C1DC1CEE178900983E51 /* Build configuration list for PBXNativeTarget "AB_HW_Week1_v3Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +555,7 @@
 				9400C1DE1CEE178900983E51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9400C1DF1CEE178900983E51 /* Build configuration list for PBXNativeTarget "AB_HW_Week1_v3UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +564,7 @@
 				9400C1E11CEE178900983E51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
