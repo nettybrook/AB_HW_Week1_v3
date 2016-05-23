@@ -145,8 +145,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eho-uV-5JJ">
-                                <rect key="frame" x="22" y="437" width="30" height="30"/>
+                                <rect key="frame" x="0.0" y="423" width="314" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="0x9-N1-Ae3" kind="push" id="sjz-Pi-Vcg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Tss-fc-Lpg">
                                 <rect key="frame" x="0.0" y="468" width="320" height="50"/>
@@ -171,20 +174,26 @@
                     <view key="view" contentMode="scaleToFill" id="5iT-hC-FLM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <userGuides>
+                            <userLayoutGuide location="495" affinity="minY"/>
+                        </userGuides>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logged_out" id="n79-Kw-WYY">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wdj-PU-mJB">
-                                <rect key="frame" x="10" y="10" width="320" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YG5-Qh-mHv">
                                 <rect key="frame" x="0.0" y="425" width="320" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="0x9-N1-Ae3" kind="push" identifier="signinSegue" id="776-Mv-ftf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wdj-PU-mJB">
+                                <rect key="frame" x="0.0" y="470" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Fk2-QZ-BqZ" kind="push" id="iRY-A9-VCA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -968,6 +977,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kTt-tU-xuZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1550" y="-264"/>
         </scene>
     </scenes>
     <resources>
@@ -997,6 +1007,8 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FcZ-1a-3PX"/>
+        <segue reference="nQb-eZ-12x"/>
+        <segue reference="776-Mv-ftf"/>
+        <segue reference="iRY-A9-VCA"/>
     </inferredMetricsTieBreakers>
 </document>
